@@ -32,7 +32,7 @@ export default function Home() {
           <div className={styles.card}>Pcos</div>
           <div className={styles.card}>Hypertension</div>
         </div>
-        <h3>Don't worry, we will make you do that!</h3>
+        <h3>{`Don't worry, we will make you do that!`}</h3>
         <div
           style={{
             display: "flex",
@@ -61,7 +61,10 @@ export default function Home() {
             GO
           </button>
         </div>
-        <h2>Coming soon...</h2>
+        <h2>{`Coming soon...`}</h2>
+        <h4 style={{ position: "fixed", bottom: "10px" }}>
+          Yoga Day 21st June 2022
+        </h4>
       </main>
     </div>
   );
